@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Serverless GraphQl",
+    "description": "a graphQL playground using netlify functions",
+    "link": "https://jidegithub-serverless-graphql.netlify.app/",
+    "image": "",
+    "github": "",
+    "stack": [
+      "GraphQl", "Netlify-Functions"
+    ]
+  }
+]
