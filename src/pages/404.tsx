@@ -1,6 +1,3 @@
-import React from "react";
-
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Helmet } from 'react-helmet';
 import fourOfour from "../images/404.svg";
@@ -8,10 +5,11 @@ import rocket from "../images/rocket.svg";
 import earth from "../images/earth.svg";
 import moon from "../images/moon.svg";
 import astronaut from "../images/astronaut.svg"
+import { Link } from "react-router-dom";
 
 function NotFoundPage() {
   return (
-    <Layout>
+    <div className="bg-main-blue min-h-screen">
       <SEO title="404: Not found" />
       <Helmet title="404 - Olutola Olajide | Software Developer" />
       <section className="mb-20">
@@ -38,7 +36,14 @@ function NotFoundPage() {
           </div>
         </div>
       </section>
-    </Layout>
+      <div className="flex items-center justify-center">
+        <button className="tweet hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          <Link to='/'>
+            Go Back Home
+          </Link>
+        </button>
+      </div>
+    </div>
   );
 }
 

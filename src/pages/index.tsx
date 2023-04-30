@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import Hero from "../components/hero.jsx";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import GetInTouch from "../components/getInTouch";
+import GetInTouch from "../components/getInTouch";
 
 
 function IndexPage() {
@@ -14,7 +14,7 @@ function IndexPage() {
       />
       <Helmet title="Home - Olutola Olajide &bull; Cloud Engineer"/>
       <Hero/>
-      {/* <GetInTouch/> */}
+      <GetInTouch/>
     </Layout>
   );
 }

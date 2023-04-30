@@ -1,6 +1,7 @@
 import Index from './pages/index'
 import Work from './pages/work'
 import About from './pages/about'
+import NotFoundPage from './pages/404'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     {
       path: "/about",
       element: <About/>
+    },
+    {
+      path: "*",
+      element: <NotFoundPage/>
     }
   ]);
 

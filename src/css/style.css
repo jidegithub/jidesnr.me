@@ -32,10 +32,12 @@ html{
   background-color: var(--main-bg-color);
 }
 .anti-main-color{
-  color: var(--turquiose);
+  /* color: var(--turquiose); */
+  color: #005656;
 }
 .anti-main-color-hover:hover{
-  color: var(--turquiose);
+  /* color: var(--turquiose); */
+  color: #005656;
 }
 .name-grey{
   color: var(--light-grey);

@@ -1,27 +1,31 @@
 import { Link, NavLink } from "react-router-dom"
 // import React, { useState } from "react";
 
-function Header({title="nothing"}) {
+function Header({title="⛩"}) {
   // const [isExpanded, toggleExpansion] = useState(false);
   // let navElement = useRef(null);
 
   return (
     <header className="w-full fixed z-50">
       <div className="flex justify-between smx-pd-40 sm:p-8 smx-flex-col p-4 md:p-8 lg:mx-20 md:mx-20">
-        <Link className="flex smx-mt-15 smx-mb-4 lg:mt-0 md:mt-0 sm:mt-4 no-underline text-white" to="/">
-          <span className="font-bold text-xl tracking-tight">
+        <Link className="flex justify-center smx-mt-15 smx-mb-4 lg:mt-0 md:mt-0 sm:mt-4 no-underline text-white" to="/">
+          <span className="font-bold text-3xl tracking-tight">
             {title}
           </span>
         </Link>
 
         <nav
-          className="md:block md:flex sm:block md:w-auto"
+          className="md:block md:flex sm:block md:w-auto overflow-auto xs:overflow-x-scroll"
           // ref={element => { navElement = element }}
         >
           {[
             {
               route: `/`,
               title: `Home`
+            },
+            {
+              route: `/about`,
+              title: `About`
             },
             {
               route: `/work`,
@@ -39,7 +43,6 @@ function Header({title="nothing"}) {
                 "border-b-2 sf-mono-font text-base name-grey anti-main-color-hover mt-4 md:mt-0 md:ml-6 sm:ml-6 smx-ml-40 no-underline text-white" : 
                 "sf-mono-font text-base name-grey anti-main-color-hover mt-4 md:mt-0 md:ml-6 sm:ml-6 smx-ml-40 no-underline text-white"
               }
-              // activeClassName={`border-b-2`}
             >
               {link.title}
             </NavLink>
