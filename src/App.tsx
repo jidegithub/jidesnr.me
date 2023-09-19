@@ -1,6 +1,6 @@
 import Index from './pages/index'
-import Work from './pages/work'
-import About from './pages/about'
+// import Projects from './pages/projects'
+// import About from './pages/about'
 import NotFoundPage from './pages/404'
 import {
   createBrowserRouter,
@@ -13,14 +13,14 @@ const router = createBrowserRouter([
       path: "/",
       element: <Index/>
     },
-    {
-      path: "/work",
-      element: <Work/>
-    },
-    {
-      path: "/about",
-      element: <About/>
-    },
+    // {
+    //   path: "/projects",
+    //   element: <Projects/>
+    // },
+    // {
+    //   path: "/about",
+    //   element: <About/>
+    // },
     {
       path: "*",
       element: <NotFoundPage/>

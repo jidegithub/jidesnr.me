@@ -5,7 +5,7 @@ export default function hero() {
 
   return (
     <>
-    <div className="pb-40 md:mt-24 mt-40">
+    <div className="md:mt-24 mt-40">
       <section 
       // ref={element => { content = element }} 
       >
@@ -15,16 +15,15 @@ export default function hero() {
           <div className="flex flex-wrap">
             <h2 className="whatido-grey leading-none m-0">Cloud&nbsp;</h2>
             <h2 className="whatido-grey leading-none m-0">and&nbsp;</h2>
-            <h2 className="whatido-grey leading-none m-0">Software Engineer</h2>
+            <h2 className="whatido-grey leading-none m-0">DevOps Engineer</h2>
           </div>
         </div>
         <div className="whatido-grey calibre-font max-w-xl mt-8">
           <p className="text-3xl">
-            I have over 4 years of combined experience building
-            products with cloud technologies
+            I have over 3 years of proven expertise in crafting cutting-edge cloud solutions.
           </p>
         </div>
-        <div className="name-grey mt-4">
+        {/* <div className="name-grey mt-4">
           <Link to="/work" className="flex text-2xl items-center font-medium">
             View Projects
             <svg xmlns="http://www.w3.org/2000/svg" className="inline-block ml-1 icon icon-tabler icon-tabler-arrow-up-right-circle" width="34" height="34" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -34,7 +33,7 @@ export default function hero() {
               <polyline points="15 15 15 9 9 9" />
             </svg> 
           </Link>
-        </div>
+        </div> */}
       </section>
     </div>
     </>

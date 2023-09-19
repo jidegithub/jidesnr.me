@@ -23,14 +23,14 @@ function Header({title="⛩"}) {
               route: `/`,
               title: `Home`
             },
-            {
-              route: `/about`,
-              title: `About`
-            },
-            {
-              route: `/work`,
-              title: `Portfolio`
-            }
+            // {
+            //   route: `/about`,
+            //   title: `About`
+            // },
+            // {
+            //   route: `/projects`,
+            //   title: `Projects`
+            // }
           ].map(link => (
             <NavLink
               // className="sf-mono-font text-base name-grey anti-main-color-hover mt-4 md:mt-0 md:ml-6 sm:ml-6 smx-ml-40 no-underline text-white"

@@ -3,6 +3,7 @@ import Hero from "../components/hero.jsx";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import GetInTouch from "../components/getInTouch";
+import Projects from '../components/projects';
 
 
 function IndexPage() {
@@ -12,8 +13,9 @@ function IndexPage() {
         keywords={[`olutola`, `jide`, `olutola jide`, `jide olutola`, `olutola olajide`, `michael`, `olutola michael`, `olutola michael olajide`]}
         title="Home"
       />
-      <Helmet title="Home - Olutola Olajide &bull; Cloud Engineer"/>
+      <Helmet title="Olutola Olajide &bull; Cloud DevOps Engineer"/>
       <Hero/>
+      <Projects/>
       <GetInTouch/>
     </Layout>
   );

@@ -1,8 +1,38 @@
 [
   {
-    "name": "Serverless GraphQl",
-    "description": "a graphQL playground using netlify functions",
-    "link": "https://jidegithub-serverless-graphql.netlify.app/",
+    "name": "Cruddur",
+    "description": "a wannabe twitter clone with focus on seamless communication and unparalleled reach, cruddur combines the power of messaging, a global content distribution network, top-notch security, and the reliability of AWS infrastructure",
+    "link": "https://www.linkedin.com/pulse/building-cruddur-michael-olutola-",
+    "image": "",
+    "github": "https://github.com/jidegithub/aws-bootcamp-cruddur-2023/", 
+    "stack": [
+      "Myriad AWS Cloud Services"
+    ]
+  },
+  {
+    "name": "Magento",
+    "description": "Here I deployed Magento, an e-commerce solution on a bare metal EC2 instances with an autoscaling rule based on CPU usage metrics.",
+    "link": "https://gitlab.com/jidegitlab/scandiweb-snr/",
+    "image": "",
+    "github": "",
+    "stack": [
+      "GraphQl", "Netlify-Functions"
+    ]
+  },
+  {
+    "name": "WildRyde",
+    "description": "wildryde is an app built on a serverless infrastructure",
+    "link": "https://gitlab.com/jidegitlab/wildrydeswebapp/",
+    "image": "",
+    "github": "",
+    "stack": [
+      "GraphQl", "Netlify-Functions"
+    ]
+  },
+  {
+    "name": "Kubernetes NGINX",
+    "description": "setting up a kubernetes cluster is easy most especially with cloud services. setting up HPA and RBAC on the other hand comes with complexities",
+    "link": "https://github.com/jidegithub/seamlesssnr-test-smhr-kubernetes/",
     "image": "",
     "github": "",
     "stack": [

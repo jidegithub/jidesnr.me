@@ -4,26 +4,23 @@ import SEO from "../components/seo";
 import projects  from '../projects.json';
 import { Helmet } from 'react-helmet';
 
-export default function work() {
+export default function Projects() {
   return (
     <Layout>
       <SEO
         keywords={[`olutola`, `jide`, `olutolajide`, `michael`, `olutolamichael`, `olutola olajide`, `olutola jide`]}
-        title="Projects 📚"
+        title="Projects"
       />
-      <Helmet title="Projects 📚 - Olutola Olajide &bull; Software Developer" />
+      <Helmet title="Projects - Olutola Olajide &bull; cloud engineer" />
       <section id="Work" className="w-full mt-40">
         <h3 className="anti-main-color sf-mono-font font-semibold text-5xl my-10">
           Projects 📚
         </h3>
-        <h4 className="name-grey sf-mono-font font-semibold text-2xl my-10">
-          Each project is unique. Here are some of my works.
-        </h4>
         <div className="mr-auto flex flex-wrap items-start">
           {projects.map(project => (
             <div className="w-full xs:p-0 md:w-1/2 lg:w-1/3 pl-3 pr-3 mb-5 lg:pl-2 lg:pr-2 " key={project.name}>
               <div className="work-blue-bg relative flex flex-col h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
-                <section className="flex justify-end">
+                {/* <section className="flex justify-end">
                   <a href={project.github}>
                     <button aria-label="github link" className="hover:text-purple-900 focus:outline-none">
                       <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -43,12 +40,12 @@ export default function work() {
                       </svg>
                     </button>
                   </a>  
-                </section>
+                </section> */}
 
                 <section className="flex flex-col pt-2 p-2">
                   <div>
                     <h5 className="text-2xl font-bold md:mb-6 sm:mb-4 mb-10 name-grey leading-none">
-                      {project.name}
+                      <a className='no-underline hover:underline' href={project.github ? project.github : project.link}>{project.name}</a>
                     </h5>
                     <div className="mb-2 h-20 name-grey">
                       <p>
