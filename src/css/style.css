@@ -17,6 +17,7 @@
 :root{
   /* --main-bg-color: rgb(10, 25, 47); */
   --main-bg-color: #12171d;
+  --main-bg-colorII: #222;
   --turquiose: rgb(100, 255, 218);
   --light-grey: rgb(204, 214, 246);
   --dark-grey: rgb(136, 146, 176);
@@ -29,7 +30,9 @@ html{
 }
 
 .bg-main-blue{
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
+  background-color: var(--main-bg-colorII);
+
 }
 .anti-main-color{
   /* color: var(--turquiose); */
@@ -175,6 +178,11 @@ li.stack-item::before{
 header{
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+}
+
+.pos-lift {
+  position: absolute;
+  bottom: 20px;
 }
 
 @-moz-keyframes rocket-movement { 100% {-moz-transform: translate(1200px,-600px);} }

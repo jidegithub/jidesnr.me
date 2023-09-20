@@ -14,7 +14,7 @@ export default function Projects() {
               <div className="work-blue-bg relative flex flex-col h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
                 <section className="flex flex-col pt-2 p-2">
                   <div>
-                    <h5 className="text-2xl font-bold md:mb-6 sm:mb-4 mb-10 name-grey leading-none">
+                    <h5 className="text-2xl font-bold md:mb-6 sm:mb-2 mb-10 name-grey leading-none">
                       <a className='no-underline hover:underline' href={project.github ? project.github : project.link}>{project.name}</a>
                     </h5>
                     <div className="mb-2 h-20 name-grey">
@@ -22,7 +22,7 @@ export default function Projects() {
                         {project.description}
                       </p>
                     </div>
-                    <footer className="text-xs md:pt-4 sf-mono-font leading-none whatido-grey">
+                    <footer className="text-xs md:pt-4 sf-mono-font leading-none whatido-grey pos-lift">
                       <ul className="flex flex-wrap md:leading-relaxed">
                         {project.stack.map(stack => (
                           <li className="pr-2 sm:leading-relaxed" key={stack}>{stack}</li>
