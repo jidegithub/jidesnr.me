@@ -15,7 +15,7 @@ export default function Projects() {
                 <section className="flex flex-col pt-2 p-2">
                   <div>
                     <h5 className="text-2xl font-bold md:mb-6 sm:mb-2 mb-10 name-grey leading-none">
-                      <a className='no-underline hover:underline' href={project.github ? project.github : project.link}>{project.name}</a>
+                      <a className='no-underline hover:underline' href={project.link ? project.link : project.github}>{project.name}</a>
                     </h5>
                     <div className="mb-2 h-20 name-grey">
                       <p>
