@@ -2,7 +2,15 @@ import PropTypes from "prop-types";
 import React from "react";
 import Helmet from "react-helmet";
 
-function SEO({ description, lang, meta, keywords, title, author="olajide" }) {
+type SEO = {
+  description?: string
+  lang?: string
+  meta: []
+  keywords: {}[]
+  title?: string
+  author?: string
+}
+function SEO({ description, lang, meta, keywords, title, author="olajide" }:SEO) {
   // const { site } = useStaticQuery(graphql`
   //   query DefaultSEOQuery {
   //     site {
