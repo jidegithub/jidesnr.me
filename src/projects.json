@@ -1,7 +1,7 @@
 [
   {
     "name": "Cruddur",
-    "description": "a sorta twitter clone(obviously can't build twitter on t2 micros) with focus on seamless communication and unparalleled reach, cruddur combines the power of messaging, a global content distribution network, top-notch security, and the reliability of AWS infrastructure.",
+    "description": "a microblog twitter clone with focus on seamless communication and unparalleled reach, cruddur combines the power of messaging, a global content distribution network, top-notch security, and the reliability of AWS infrastructure.",
     "link": "https://www.linkedin.com/pulse/building-cruddur-michael-olutola-",
     "image": "",
     "github": "https://github.com/jidegithub/aws-bootcamp-cruddur-2023/", 
@@ -31,7 +31,7 @@
   },
   {
     "name": "Kubernetes NGINX",
-    "description": "setting up a kubernetes cluster is easy most especially with cloud services. setting up HPA on the other hand comes with complexities. This is a kubernetes cluster setup with 3 nodes and a pod running NGINX. The (Elastic, Logstash, Kibana)ELK stack was also setup to monitor the cluster and get insights on the health of the application running within the cluster.",
+    "description": "This is a kubernetes cluster setup with 3 nodes and a pod running NGINX. The (Elastic, Logstash, Kibana)ELK stack was also setup to monitor the cluster and get insights on the health of the application running within the cluster.",
     "link": "https://github.com/jidegithub/seamlesssnr-test-smhr-kubernetes/",
     "image": "",
     "github": "",

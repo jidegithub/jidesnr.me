@@ -10,15 +10,15 @@ export default function Projects() {
         </h3>
         <div className="mr-auto flex flex-wrap items-start">
           {projects.map(project => (
-            <div className="w-full xs:p-0 md:w-1/2 lg:w-1/3 pl-3 pr-3 mb-5 lg:pl-2 lg:pr-2 " key={project.name}>
+            <div className="w-full xs:p-0 sm:w-1/2 md:w-full lg:w-1/2 pl-3 pr-3 mb-5 lg:pl-2 lg:pr-2 " key={project.name}>
               <div className="work-blue-bg relative flex flex-col h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
                 <section className="flex flex-col pt-2 p-2">
                   <div>
-                    <h5 className="text-2xl font-bold md:mb-6 sm:mb-2 mb-10 name-grey leading-none">
+                    <h5 className="text-2xl sm:text-lg font-bold mb-1 sm:mb-2 md:mb-6 name-grey leading-none">
                       <a className='no-underline hover:underline' href={project.link ? project.link : project.github}>{project.name}</a>
                     </h5>
                     <div className="mb-2 h-20 name-grey">
-                      <p>
+                      <p className='text-sm sm:text-xs md:text-base'>
                         {project.description}
                       </p>
                     </div>
